@@ -1,6 +1,6 @@
 
 [![pub package](https://img.shields.io/pub/v/flutter_color_plugin.svg)](https://pub.dartlang.org/packages/flutter_color_plugin)
-[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboyflutter_color_plugin/pulls)
+[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/flutter_color_plugin/pulls)
 [ ![flutter_color_plugin release](https://img.shields.io/github/release/crazycodeboy/flutter_color_plugin.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/flutter_color_plugin/releases)
 
 A color parse package for flutter,it works on iOS and Android.
