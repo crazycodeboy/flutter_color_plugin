@@ -18,21 +18,21 @@ class ColorUtil {
 
   /// Parse the color string, and return the corresponding color-int.
   /// If the string cannot be parsed, throws an ArgumentError
-  static int intColor(String colorString) {
+  static int intColor(String? colorString) {
     if (colorString?.isEmpty ?? true) {
       throw ArgumentError('Unknown color');
     }
-    if (colorString[0] == '#') {
-      int color = int.tryParse(colorString.substring(1), radix: 16);
-      if (colorString.length == 7) {
+    if (colorString![0] == '#') {
+      int? color = int.tryParse(colorString.substring(1), radix: 16);
+      if (colorString.length == 7 && color != null) {
         // Set the alpha value
         color |= 0x00000000ff000000;
       } else if (colorString.length != 9) {
         throw ArgumentError('Unknown color');
       }
-      return color;
+      return color!;
     } else {
-      int color = sColorNameMap[(colorString.toLowerCase())];
+      int? color = sColorNameMap[(colorString!.toLowerCase())];
       if (color != null) {
         return color;
       } else {

@@ -1,4 +1,7 @@
-## [0.0.1]
+## 1.0.0
 
-- support `intColor`、`color` API
+* support null safety.
 
+## 0.0.1
+
+* v0.0.1
