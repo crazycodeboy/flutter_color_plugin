@@ -27,6 +27,13 @@ class ColorUtil {
       if (colorString.length == 7 && color != null) {
         // Set the alpha value
         color |= 0x00000000ff000000;
+      } else if (colorString.length == 4) {
+        String convertedToHex = colorString
+          .substring(1)
+          .split('')
+          .map((String char) => char + char)
+          .join('');
+        return intColor('#$convertedToHex');
       } else if (colorString.length != 9) {
         throw ArgumentError('Unknown color');
       }
