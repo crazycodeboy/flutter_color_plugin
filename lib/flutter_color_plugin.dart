@@ -32,7 +32,7 @@ class ColorUtil {
       }
       return color!;
     } else {
-      int? color = sColorNameMap[(colorString!.toLowerCase())];
+      int? color = sColorNameMap[(colorString.toLowerCase())];
       if (color != null) {
         return color;
       } else {

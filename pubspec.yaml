@@ -1,6 +1,6 @@
 name: flutter_color_plugin
 description: A color parse package for flutter,it works on iOS and Android.
-version: 1.0.0
+version: 1.1.0
 author: CrazyCodeBoy <crazycodeboy@gmail.com>
 homepage: https://github.com/crazycodeboy/flutter_color_plugin
 
